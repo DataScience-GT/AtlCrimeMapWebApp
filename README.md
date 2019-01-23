@@ -5,4 +5,10 @@ in and around Georgia Tech's campus.
 
 ## How to Run (Local)
 
-To run the application, run `npm start` from the root of the project directory.
+First, ensure that you have [Node.js](https://nodejs.org/) installed.
+
+To run the application, open your terminal in the project's root directory and enter
+
+```
+npm start
+```
