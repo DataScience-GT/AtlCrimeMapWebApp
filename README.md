@@ -7,8 +7,17 @@ in and around Georgia Tech's campus.
 
 First, ensure that you have [Node.js](https://nodejs.org/) installed.
 
-To run the application, open your terminal in the project's root directory and enter
+Second, you must have a Google Maps API Key. In `client/src/config/`, make a file called `credentials.json`. It should be of this format:
+
+```JSON
+{
+    "apiKey": "YOUR-API-KEY-GOES-HERE"
+}
+```
+
+To run the front-end application, open your terminal in the project's root directory and enter
 
 ```
+cd client
 npm start
 ```
