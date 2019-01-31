@@ -1,11 +1,6 @@
 import React from "react";
 import { Map, InfoWindow, Marker } from 'google-maps-react';
 
-const mapStyle = {
-    width: "800px",
-    height: "600px"
-}
-
 function GoogleMap(props) {
     let { google, onMarkerClick, onInfoWindowClose, selectedPlace } = props;
     return (
