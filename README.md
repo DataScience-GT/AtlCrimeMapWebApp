@@ -11,9 +11,14 @@ Second, you must have a Google Maps API Key. In `client/src/config/`, make a fil
 
 ```JSON
 {
-    "apiKey": "YOUR-API-KEY-GOES-HERE"
+    "mapsApiKey": "YOUR-GOOGLE-MAPS-API-KEY-GOES-HERE",
+    "firebaseConfig": {} // get this object from the Firebase console
 }
 ```
+
+**NOTE**: The `firebaseConfig` property must have the value equal to that given in the [Firebase Console](https://console.firebase.google.com). To get the credentials object, go to the "Project Overview" page. 
+Here, press "Add app" and select the web app option. An HTML script should appear. Copy the `config` 
+object beneath `// Initialize Firebase` and put its value in your `credentials.json` under `firebaseConfig`.
 
 To run the front-end application, open your terminal in the project's root directory and enter
 
